@@ -16,9 +16,17 @@ the participants will learn:
 ## code file text/tools.py
 ## test file tests/test_string/test_tools.py
 
-## Usage: 
-Learner must run the tests using the previous command and figure out why some tests passed and other not.
-also should solve the questions and tasks that exist as comments on the code files.
+## Tasks:
+### task1:
+why test 2,3,4 and 6 will fail and how to fix them so they will pass?
+### task2:
+write a function called word_count which will take one string parameter 
+it should return the numbers of the words on the given string parameter
+### task3:
+write test for the previous function which should check the following cases:
+- no parameter passed
+- wrong parameter datatype
+- wrong output
 
 ## very important notice:
 the code should be written in a way to be testable like break it down into functions instead of writing the code in a big bunch of one unit 

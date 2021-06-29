@@ -1,25 +1,24 @@
 from text.tools import upper_case, revers
-
+# test1
 def test_upper_case1():
     assert upper_case("python") == "PYTHON"
 
-# why this test will fail 
+# test2
 def test_upper_case2():
     assert upper_case("lion") == "LOIN"
 
-# why this test will fail ?
-# how to fix the function so the test will pass ?
+# test3
 def test_upper_case2():
     assert upper_case() == ""
 
-# why this test will fail?
-# how to fix the function so the test will pass?
+# test4
 def test_upper_case2():
     assert upper_case(10) == "10"
 
+# test5
 def test_revers1():
     assert revers("lion") == "noil"
 
-# why this test will fail?
+# test6
 def test_revers2():
     assert revers("LION") == "noil"
